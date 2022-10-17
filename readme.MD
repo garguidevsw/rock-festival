@@ -32,3 +32,23 @@ npm i -D gulp-sass
 ```
 npm i -D gulp-plumber
 ```
+
+- GULP WEBP
+```
+npm i -D gulp-webp
+```
+
+- GULP IMAGEMIN - OPTIMIZAR IMAGENES
+```
+npm i -D gulp-imagemin@7.1.0
+```
+
+- GULP CACHE
+```
+npm i -D gulp-cache
+```
+
+- GULP AVIF
+```
+npm i -D gulp-avif
+```
