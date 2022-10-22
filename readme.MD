@@ -52,3 +52,13 @@ npm i -D gulp-cache
 ```
 npm i -D gulp-avif
 ```
+
+- AUTOPREFIXER, CSSNANO, POSTCSS, GULP-POSTCSS
+```
+npm i -D autoprefixer cssnano postcss gulp-postcss
+```
+
+- GULP-SOURCEMAPS
+```
+npm i -D gulp-sourcemaps
+```
