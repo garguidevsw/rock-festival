@@ -8,6 +8,9 @@ const cssnano = require('cssnano');
 const postcss = require('gulp-postcss');
 const sourcemaps = require('gulp-sourcemaps');
 
+// javascript
+const terser = require('gulp-terser-js');
+
 //Imagenes
 const cache = require('gulp-cache');
 const imagemin = require('gulp-imagemin');
@@ -75,6 +78,9 @@ const dev = ( done ) => {
 
 const javascript = ( done ) => {
     src('src/js/**/*.js')
+        .pipe(sourcemaps.init())
+        .pipe( terser() )
+        .pipe( sourcemaps.write('.') )
         .pipe( dest('build/js') );
     
     done();

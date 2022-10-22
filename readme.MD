@@ -11,6 +11,12 @@ npm install
 npm run dev
 ```
 
+** Ejecutar funciones de GULP **
+```
+npx gulp css
+npx gulp js
+```
+
 ## Dependencias
 
 - SASS
@@ -61,4 +67,9 @@ npm i -D autoprefixer cssnano postcss gulp-postcss
 - GULP-SOURCEMAPS
 ```
 npm i -D gulp-sourcemaps
+```
+
+- GULP-TERSER
+```
+npm i -D gulp-terser-js
 ```
